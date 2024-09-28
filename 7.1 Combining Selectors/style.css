@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/*parent child*/
+.box > .done {
+    color: firebrick;
+}
+
+/*anchestor descendants*/
+.box li {
+    color: blue;
+}
+
+/*chaining*/
+li.done {
+    color: seagreen;
+}
+
+/*anchestor combine chaining*/
+ul p.done {
+    font-size: 0.5rem;
+}
