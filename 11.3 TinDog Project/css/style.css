@@ -4,6 +4,10 @@
   animation: gradient-animation 18s ease infinite;
 }
 
+/* body {
+  margin: 0;
+} */
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -25,4 +29,25 @@
 .profile-img {
   height: 100px;
   border-radius: 50%;
+}
+
+.btn-primary {
+  color: black;
+  background-color: white;
+  border: white;
+}
+
+.btn-outline-secondary {
+  color: white;
+  background-color: transparent;
+  border: 1px white solid;
+}
+
+.dog-images {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.grey-background {
+  background-color: rgb(248, 249, 250);
 }
