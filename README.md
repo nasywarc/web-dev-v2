@@ -1,2 +1,2 @@
 # web-dev-v2
-web development course documentation
+udemy web development course documentation
