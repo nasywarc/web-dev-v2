@@ -30,3 +30,27 @@
   width: 3rem;
   height: 3rem;
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: #545454;
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #e7e7e7;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.rounded-lg-3 {
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+}
